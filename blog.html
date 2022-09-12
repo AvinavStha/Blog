@@ -1,38 +1,182 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="blog.css" />
-  </head>
-  <body>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
     <section class="introduction">
-      <div class="header">
-        <div class="header-left">
-            <h1>Abhinav</h1>
-        </div>
-        <div class="header-right">
-          <a href="">About</a><a href="">Work</a><a href="">Contact</a>
-        </nav>
-      </div>
-      <div class="i-img">
-        <img class="resize" src="blog.png" alt="blog_img" />
-      </div>
-      <div class="i-title">
+        <div class="header">
+            <div class="header-left">
+                <h1>Abhinav</h1>
+            </div>
+            <div class="header-right">
+                <a href="">About</a><a href="">Work</a><a href="">Contact</a>
+                </nav>
+            </div>
+            <div class="i-img">
+                <img class="resize" src="blog.png" alt="blog_img" />
+            </div>
+            <!-- <div class="i-title">
         <div class="i-title-wrapper">
           <div class="i-title-item">Welcome To</div>
           <div class="i-title-item">Abhinav's Blog</div>
         </div>
-      </div>
-      <div class="wave wave1"></div>
-      <div class="wave wave2"></div>
-      <div class="wave wave3"></div>
-      <div class="wave wave4"></div>
+      </div> -->
+            <div class="typewriter">
+                <h1>Welcome to Abhinav's Blog!!!</h1>
+            </div>
+            <div class="wave wave1"></div>
+            <div class="wave wave2"></div>
+            <div class="wave wave3"></div>
+            <div class="wave wave4"></div>
     </section>
-    <section class="">
+    <section class="about">
+        <div class="a-left">
+            <header>
+                <h1>About</h1>
+            </header>
+            <p>I am Abhinav Lal Shrestha. I'm a 23 years old web developer based in
+                Nepal. I've been programming websites and using various design and
+                development services and technologies to create user-friendly
+                experiences and now I've passion on it. I'm currently working as an intern taking offers from small
+                steps and ready for new challenge. I've basically obtained a decent knowledge of computer science and
+                web development ideas as a learner, and I've spent a lot of my time applying these concepts to
+                real-world applications.</p>
+            <div class="skills">
+                <span class="s-types">&#8226; HTML & CSS</span>
+                <span class="s-types"> &#8226; Angular Basic</span>
+                <span class="s-types">&#8226; Python (Django)</span>
+                <span class="s-types">&#8226; React JS Basic</span>
+                <span class="s-types">&#8226; Node JS Basic</span>
+            </div>
+            <div class="a-img">
+                <img src="hc.png" alt="">
+                <img src="angular.svg" alt="">
+                <img src="python.png" alt="">
+                <img src="react.png" alt="">
+                <img src="nodejs.png" alt="">
+            </div>
+
+
+        </div>
 
     </section>
-  </body>
+    <section class="project">
+        <div class="title">
+            <h1>My Work</h1>
+        </div>
+        <div class="works">
+            <div class="container">
+                <div class="card card1">
+                    <div class="content">
+                        <h2>INKU</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque sit incidunt beatae enim
+                            voluptas sint inventore officia debitis nisi soluta minima sequi, modi amet perspiciatis
+                            nesciunt laudantium iusto adipisci aut.
+                        </p>
+                        <a href="">Read More</a>
+                    </div>
+                </div>
+                <div class="card card2">
+                    <div class="content">
+                        <h2>Deal With Us Express</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque sit incidunt beatae enim
+                            voluptas sint inventore officia debitis nisi soluta minima sequi, modi amet perspiciatis
+                            nesciunt laudantium iusto adipisci aut.
+                        </p>
+                        <a href="">Read More</a>
+                    </div>
+                </div>
+                <div class="card card3">
+                    <div class="content">
+                        <h2>The Fit Club</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque sit incidunt beatae enim
+                            voluptas sint inventore officia debitis nisi soluta minima sequi, modi amet perspiciatis
+                            nesciunt laudantium iusto adipisci aut.
+                        </p>
+                        <a href="">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="contact">
+            <div class="c-left">
+                <h1>Let's get Connected</h1>
+                <div class="c-info-item">
+                    <i class="fa fa-phone"></i>
+                    +977 9843597381
+                </div>
+                <div class="c-info-item">
+                    <i class="fa fa-envelope"></i>
+
+                    avi.shrestha.775@gmail.com
+                </div>
+                <div class="c-info-item">
+                    <i class="fa fa-map-pin"></i>
+                    16 Balaju, Kathmandu 44600, Nepal
+                </div>
+
+            </div>
+            <div class="c-right">
+                <div class="c-container">
+                    <form action="">
+
+                        <label for="fname"> Name</label>
+                        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                        <label for="country">Country</label>
+                        <select id="country" name="country">
+                            <option value="australia">Nepal</option>
+                            <option value="australia">Australia</option>
+                            <option value="canada">Canada</option>
+                            <option value="usa">USA</option>
+                        </select>
+                        <label for="subject">Subject</label>
+                        <textarea id="subject" name="subject" placeholder="Write something.."
+                            style="height:200px"></textarea>
+
+                        <input type="submit" value="Submit">
+
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="social-media">
+            <div class="socialLinks">
+                <a href="https://www.facebook.com/ShresAvinav/" class="fa fa-facebook fa-lg social"></a>
+                <a href="#" class="fa fa-twitter fa-lg social"></a>
+                <a href="https://github.com/AvinavStha/" class="fa fa-github fa-lg social"></a>
+                <a href="https://www.instagram.com/shresavinav/" class="fa fa-instagram  fa-lg social"></a>
+                <a href="https://www.linkedin.com/in/avinav-shrestha-649848196" class="fa fa-linkedin  fa-lg social"></a>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="footer">
+            <div class="line-ht">
+                <i class="fa fa-copyright"></i>
+                Copyright 2022. All Rights Reserved.
+            </div>
+            <div class="footer-title">
+               <h1 class="name">Developed and Designed By : <span>Abhinav Lal Shrestha</span> </h1> 
+            </div>
+        </div>
+    </section>
+</body>
+
 </html>
