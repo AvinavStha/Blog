@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="blog.css" />
+    <script src="blog.js"></script>
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
 </head>
@@ -18,8 +20,7 @@
                 <h1>Abhinav</h1>
             </div>
             <div class="header-right">
-                <a href="">About</a><a href="">Work</a><a href="">Contact</a>
-                </nav>
+                <a href="#About" >About</a><a href="#Work" >Work</a><a href="#Contact" >Contact</a>
             </div>
             <div class="i-img">
                 <img class="resize" src="blog.png" alt="blog_img" />
@@ -41,12 +42,12 @@
     <section class="about">
         <div class="a-left">
             <header>
-                <h1>About</h1>
+                <h1 id="About">About</h1>
             </header>
             <p>I am Abhinav Lal Shrestha. I'm a 23 years old web developer based in
                 Nepal. I've been programming websites and using various design and
                 development services and technologies to create user-friendly
-                experiences and now I've passion on it. I'm currently working as an intern taking offers from small
+                experiences and now I've passion on it. I'm currently working as an intern taking off from small
                 steps and ready for new challenge. I've basically obtained a decent knowledge of computer science and
                 web development ideas as a learner, and I've spent a lot of my time applying these concepts to
                 real-world applications.</p>
@@ -71,7 +72,7 @@
     </section>
     <section class="project">
         <div class="title">
-            <h1>My Work</h1>
+            <h1 id="Work">My Work</h1>
         </div>
         <div class="works">
             <div class="container">
@@ -110,25 +111,30 @@
                 </div>
             </div>
         </div>
+        
     </section>
     <section>
         <div class="contact">
             <div class="c-left">
-                <h1>Let's get Connected</h1>
+                <h1 id="Contact">Let's get Connected</h1>
                 <div class="c-info-item">
-                    <i class="fa fa-phone"></i>
+                    <i class="fa fa-phone fa-lg"></i>
                     +977 9843597381
                 </div>
                 <div class="c-info-item">
-                    <i class="fa fa-envelope"></i>
+                    <i class="fa fa-envelope fa-lg"></i>
 
                     avi.shrestha.775@gmail.com
                 </div>
                 <div class="c-info-item">
-                    <i class="fa fa-map-pin"></i>
+                    <i class="fa fa-map-pin fa-lg"></i>
                     16 Balaju, Kathmandu 44600, Nepal
                 </div>
-
+                <!-- <div class="btt">
+                    <button class="back-to-top">
+                        Back To Top <i class="fa fa-arrow-up"></i>
+                    </button>
+                </div> -->
             </div>
             <div class="c-right">
                 <div class="c-container">
@@ -151,7 +157,7 @@
 
                     </form>
                 </div>
-
+                
             </div>
         </div>
     </section>
@@ -167,16 +173,21 @@
         </div>
     </section>
     <section>
-        <div class="footer">
+        <footer>
             <div class="line-ht">
                 <i class="fa fa-copyright"></i>
                 Copyright 2022. All Rights Reserved.
             </div>
-            <div class="footer-title">
+            <div class="title">
                <h1 class="name">Developed and Designed By : <span>Abhinav Lal Shrestha</span> </h1> 
             </div>
-        </div>
+        </footer>
     </section>
+    <div class="btt">
+        <button onclick="topFunction()" id="myBtn" class="back-to-top">
+            Back To Top <i class="fa fa-arrow-up"></i>
+        </button>
+    </div>
 </body>
 
 </html>
